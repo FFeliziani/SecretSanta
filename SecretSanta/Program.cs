@@ -82,22 +82,6 @@ namespace SecretSanta
 
         private static void init()
         {
-            listaPersone.Add(new Persona("Alessio", "Balloni", "alessio.balloni@itattitude.com"));
-            listaPersone.Add(new Persona("Andrea", "Prestia", "andrea.prestia@itattitude.com"));
-            listaPersone.Add(new Persona("Andrea", "Ravaioli", "andrea.ravaioli@itattitude.com"));
-            listaPersone.Add(new Persona("Barbara", "Bartolomeo", "barbara.bartolomeo@itattitude.com"));
-            listaPersone.Add(new Persona("Cesare", "Deccio", "cesare.deccio@itattitude.com"));
-            listaPersone.Add(new Persona("Claudia", "Coluzzi", "claudia.coluzzi@itattitude.com"));
-            listaPersone.Add(new Persona("Davide", "Massarin", "davide.massarin@itattitude.com"));
-            listaPersone.Add(new Persona("Emiliano", "Carlesi", "emiliano.carlesi@itattitude.com"));
-            listaPersone.Add(new Persona("Emiliano", "Merli", "emiliano.merli@itattitude.com"));
-            listaPersone.Add(new Persona("Federico", "Feliziani", "federico.feliziani@itattitude.com"));
-            listaPersone.Add(new Persona("Marco", "Cipollini", "marco.cipollini@itattitude.com"));
-            listaPersone.Add(new Persona("Mauro", "Giambenedetti", "mauro.giambenedetti@itattitude.com"));
-            listaPersone.Add(new Persona("Sabrina", "Capaldi", "sabrina.capaldi@itattitude.com"));
-            listaPersone.Add(new Persona("Sara", "Arrizza", "sara.arrizza@itattitude.com"));
-            listaPersone.Add(new Persona("Silvia", "Colantoni", "silvia.colantoni@itattitude.com"));
-            listaPersone.Add(new Persona("Stefano", "Novelli", "stefano.novelli@itattitude.com"));
         }
 
         private static void log(Persona gifter, String message)
@@ -131,24 +115,6 @@ namespace SecretSanta
 
 
 /*
- 
- listaPersone.Add(new Persona("Alessio", "Balloni", "alessio.balloni@itattitude.com"));
-            listaPersone.Add(new Persona("Andrea", "Prestia", "andrea.prestia@itattitude.com"));
-            listaPersone.Add(new Persona("Andrea", "Ravaioli", "andrea.ravaioli@itattitude.com"));
-            listaPersone.Add(new Persona("Barbara", "Bartolomeo", "barbara.bartolomeo@itattitude.com"));
-            listaPersone.Add(new Persona("Cesare", "Deccio", "cesare.deccio@itattitude.com"));
-            listaPersone.Add(new Persona("Claudia", "Coluzzi", "claudia.coluzzi@itattitude.com"));
-            listaPersone.Add(new Persona("Davide", "Massarin", "davide.massarin@itattitude.com"));
-            listaPersone.Add(new Persona("Emiliano", "Carlesi", "emiliano.carlesi@itattitude.com"));
-            listaPersone.Add(new Persona("Emiliano", "Merli", "emiliano.merli@itattitude.com"));
-            listaPersone.Add(new Persona("Federico", "Feliziani", "federico.feliziani@itattitude.com"));
-            listaPersone.Add(new Persona("Marco", "Cipollini", "marco.cipollini@itattitude.com"));
-            listaPersone.Add(new Persona("Mauro", "Giambenedetti", "mauro.giambenedetti@itattitude.com"));
-            listaPersone.Add(new Persona("Sabrina", "Capaldi", "sabrina.capaldi@itattitude.com"));
-            listaPersone.Add(new Persona("Sara", "Arrizza", "sara.arrizza@itattitude.com"));
-            listaPersone.Add(new Persona("Silvia", "Colantoni", "silvia.colantoni@itattitude.com"));
-            listaPersone.Add(new Persona("Stefano", "Novelli", "stefano.novelli@itattitude.com"));
- 
  
  
  
