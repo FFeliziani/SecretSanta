@@ -68,8 +68,8 @@ namespace SecretSanta
                     }
                     catch (Exception ex)
                     {
-                        log(p, "ERRORE!!!! " + p.Name + "  " + p.Surname + "NON HA RICEVUTO LA MAIL. DOVEVA FARE IL REGALO A " + q.Name + " " + q.Surname + "!!!!!!!!!!");
-                        Console.WriteLine("ERRORE!!!! " + p.Name + "  " + p.Surname + "NON HA RICEVUTO LA MAIL. DOVEVA FARE IL REGALO A " + q.Name + " " + q.Surname + "!!!!!!!!!!");
+                        log(p, "ERRORE!!!! " + p.Name + "  " + p.Surname + "NON HA RICEVUTO LA MAIL. DOVEVA FARE IL REGALO A " + q.Name + " " + q.Surname + "!!!!!!!!!! Eccezione: " + ex.Message);
+                        Console.WriteLine("ERRORE!!!! " + p.Name + "  " + p.Surname + "NON HA RICEVUTO LA MAIL. DOVEVA FARE IL REGALO A " + q.Name + " " + q.Surname + "!!!!!!!!!! Eccezione: " + ex.Message);
                     }
                 }
                 log(p, q);
